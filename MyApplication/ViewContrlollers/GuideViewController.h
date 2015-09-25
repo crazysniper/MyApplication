@@ -13,4 +13,7 @@
  */
 @interface GuideViewController : UIViewController
 
+-(instancetype) initGuideInfo:(NSString*)info;
++(void) add;
+
 @end

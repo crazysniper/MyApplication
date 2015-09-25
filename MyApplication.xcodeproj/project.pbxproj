@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB5A2CA1BB399CA00C1234A /* MyUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2C81BB399CA00C1234A /* MyUITableView.m */; };
+		3AB5A2CE1BB3B9EB00C1234A /* MyUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2CD1BB3B9EB00C1234A /* MyUIScrollView.m */; };
+		3AB5A2D61BB50A5900C1234A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2D51BB50A5900C1234A /* MyViewController.m */; };
+		3AB5A2D91BB5112600C1234A /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2D81BB5112600C1234A /* Paper.m */; };
+		3AB5A2DF1BB512A200C1234A /* PaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2DE1BB512A200C1234A /* PaperViewController.m */; };
+		3AB5A2E21BB5199B00C1234A /* PaperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2E11BB5199B00C1234A /* PaperCell.m */; };
 		3E9F5FB81BB2C82A00460AA5 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F5FB71BB2C82A00460AA5 /* Utils.m */; };
 		3E9F5FBB1BB2C83800460AA5 /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F5FBA1BB2C83800460AA5 /* HttpUtils.m */; };
 		3E9F5FBE1BB2C88600460AA5 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F5FBD1BB2C88600460AA5 /* SplashViewController.m */; };
@@ -34,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AB5A2C71BB399CA00C1234A /* MyUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUITableView.h; path = ViewContrlollers/MyViewControllers/MyUITableView.h; sourceTree = "<group>"; };
+		3AB5A2C81BB399CA00C1234A /* MyUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUITableView.m; path = ViewContrlollers/MyViewControllers/MyUITableView.m; sourceTree = "<group>"; };
+		3AB5A2CC1BB3B9EB00C1234A /* MyUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUIScrollView.h; path = ViewContrlollers/MyViewControllers/MyUIScrollView.h; sourceTree = "<group>"; };
+		3AB5A2CD1BB3B9EB00C1234A /* MyUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUIScrollView.m; path = ViewContrlollers/MyViewControllers/MyUIScrollView.m; sourceTree = "<group>"; };
+		3AB5A2D41BB50A5900C1234A /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = ViewContrlollers/MyViewControllers/MyViewController.h; sourceTree = "<group>"; };
+		3AB5A2D51BB50A5900C1234A /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = ViewContrlollers/MyViewControllers/MyViewController.m; sourceTree = "<group>"; };
+		3AB5A2D71BB5112600C1234A /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Paper.h; path = Models/Paper.h; sourceTree = "<group>"; };
+		3AB5A2D81BB5112600C1234A /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Paper.m; path = Models/Paper.m; sourceTree = "<group>"; };
+		3AB5A2DD1BB512A200C1234A /* PaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaperViewController.h; path = ViewContrlollers/MyViewControllers/PaperViewController.h; sourceTree = "<group>"; };
+		3AB5A2DE1BB512A200C1234A /* PaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaperViewController.m; path = ViewContrlollers/MyViewControllers/PaperViewController.m; sourceTree = "<group>"; };
+		3AB5A2E01BB5199B00C1234A /* PaperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaperCell.h; path = Views/PaperCell.h; sourceTree = "<group>"; };
+		3AB5A2E11BB5199B00C1234A /* PaperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaperCell.m; path = Views/PaperCell.m; sourceTree = "<group>"; };
 		3E9F5FB61BB2C82A00460AA5 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = Utils/Utils.h; sourceTree = "<group>"; };
 		3E9F5FB71BB2C82A00460AA5 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utils.m; path = Utils/Utils.m; sourceTree = "<group>"; };
 		3E9F5FB91BB2C83800460AA5 /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HttpUtils.h; path = Utils/HttpUtils.h; sourceTree = "<group>"; };
@@ -82,6 +100,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AA9554B1BB3988B003FE70F /* MyViewsContrlloers */ = {
+			isa = PBXGroup;
+			children = (
+				3AB5A2C71BB399CA00C1234A /* MyUITableView.h */,
+				3AB5A2C81BB399CA00C1234A /* MyUITableView.m */,
+				3AB5A2CC1BB3B9EB00C1234A /* MyUIScrollView.h */,
+				3AB5A2CD1BB3B9EB00C1234A /* MyUIScrollView.m */,
+				3AB5A2DD1BB512A200C1234A /* PaperViewController.h */,
+				3AB5A2DE1BB512A200C1234A /* PaperViewController.m */,
+			);
+			name = MyViewsContrlloers;
+			sourceTree = "<group>";
+		};
 		3E9F5FC21BB2C8CC00460AA5 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +125,8 @@
 		3E9F5FCC1BB2C9A900460AA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3AB5A2E01BB5199B00C1234A /* PaperCell.h */,
+				3AB5A2E11BB5199B00C1234A /* PaperCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -179,6 +212,8 @@
 			children = (
 				3E9F5FC61BB2C90A00460AA5 /* User.h */,
 				3E9F5FC71BB2C90A00460AA5 /* User.m */,
+				3AB5A2D71BB5112600C1234A /* Paper.h */,
+				3AB5A2D81BB5112600C1234A /* Paper.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -186,11 +221,14 @@
 		3EC493371BB2C5AB00E176AF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				3AA9554B1BB3988B003FE70F /* MyViewsContrlloers */,
 				3E9F5FC21BB2C8CC00460AA5 /* Home */,
 				3E9F5FBF1BB2C8AB00460AA5 /* GuideViewController.h */,
 				3E9F5FC01BB2C8AB00460AA5 /* GuideViewController.m */,
 				3E9F5FBC1BB2C88600460AA5 /* SplashViewController.h */,
 				3E9F5FBD1BB2C88600460AA5 /* SplashViewController.m */,
+				3AB5A2D41BB50A5900C1234A /* MyViewController.h */,
+				3AB5A2D51BB50A5900C1234A /* MyViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -320,16 +358,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB5A2DF1BB512A200C1234A /* PaperViewController.m in Sources */,
 				3EC493181BB2C52D00E176AF /* ViewController.m in Sources */,
 				3E9F5FCB1BB2C95300460AA5 /* BaseViewController.m in Sources */,
 				3E9F5FC11BB2C8AB00460AA5 /* GuideViewController.m in Sources */,
 				3E9F5FC81BB2C90A00460AA5 /* User.m in Sources */,
+				3AB5A2CA1BB399CA00C1234A /* MyUITableView.m in Sources */,
 				3E9F5FBB1BB2C83800460AA5 /* HttpUtils.m in Sources */,
 				3EC493151BB2C52D00E176AF /* AppDelegate.m in Sources */,
 				3EC493121BB2C52D00E176AF /* main.m in Sources */,
 				3E9F5FB81BB2C82A00460AA5 /* Utils.m in Sources */,
+				3AB5A2CE1BB3B9EB00C1234A /* MyUIScrollView.m in Sources */,
+				3AB5A2D91BB5112600C1234A /* Paper.m in Sources */,
 				3E9F5FBE1BB2C88600460AA5 /* SplashViewController.m in Sources */,
 				3E9F5FC51BB2C8E000460AA5 /* HomeViewController.m in Sources */,
+				3AB5A2E21BB5199B00C1234A /* PaperCell.m in Sources */,
+				3AB5A2D61BB50A5900C1234A /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

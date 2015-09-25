@@ -54,5 +54,15 @@
  */
 + (UIViewController *)getCurrentViewController;
 
+/**
+ *  设置view的上面所在的y轴坐标
+ *
+ *  @param view <#view description#>
+ *
+ *  @return <#return value description#>
+ */
++ (CGFloat) getViewMarginTop:(UIView*)view;
+
+
 
 @end

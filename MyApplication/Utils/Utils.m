@@ -145,6 +145,9 @@ static NSDateFormatter *dateFormatter;
     return result;
 }
 
++ (CGFloat)getViewMarginTop:(UIView *)view {
+    return view.frame.origin.y + view.frame.size.height+20;
+}
 
 
 @end

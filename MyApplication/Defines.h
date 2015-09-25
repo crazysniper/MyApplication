@@ -12,5 +12,9 @@
 
 #define Current_Build             [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 
+// 屏幕的物理宽、高
+#define APP_SCREEN_WIDTH                    [UIScreen mainScreen].bounds.size.width
+#define APP_SCREEN_HEIGHT                   [UIScreen mainScreen].bounds.size.height
+
 
 #endif
