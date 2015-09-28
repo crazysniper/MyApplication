@@ -2,7 +2,7 @@
 //  PaperCell.m
 //  MyApplication
 //
-//  Created by Xiaofeng.Ge on 15/9/25.
+//  Created by Gao on 15/9/25.
 //  Copyright (c) 2015年 Gao. All rights reserved.
 //
 
@@ -32,19 +32,23 @@
 
 -(void) initView
 {
-    _year = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 30, 20)];
+    _year = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 60, 20)];
     _year.backgroundColor = [UIColor whiteColor];
+    _year.textColor = [UIColor blackColor];
+//    _year.font = [UIFont boldSystemFontOfSize:20];
     
     
-    CGFloat x = APP_SCREEN_WIDTH - 30 - 9;
-    _province = [[UILabel alloc] initWithFrame:CGRectMake(x, 0, 30, 20)];
+    CGFloat x = APP_SCREEN_WIDTH - 60 - 9;
+    _province = [[UILabel alloc] initWithFrame:CGRectMake(x, 0, 60, 20)];
     _province.backgroundColor = [UIColor whiteColor];
+    _province.textColor = [UIColor blackColor];
+//    _province.font = [UIFont boldSystemFontOfSize:20];
     
     
     CGFloat titleWidth = APP_SCREEN_WIDTH - 6 - 9 ;
     
     
-    _title = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, titleWidth, 100)];
+    _title = [[UILabel alloc] initWithFrame:CGRectMake(6, 30, titleWidth, 30)];
     _title.backgroundColor = [UIColor whiteColor];
     _title.textColor = [UIColor redColor];
     _title.font = [UIFont boldSystemFontOfSize:16];
@@ -60,6 +64,7 @@
     // Initialization code
 }
 
+#pragma mark - 重写选择事件，取消选中
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

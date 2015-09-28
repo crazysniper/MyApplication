@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyApplication/ViewContrlollers/MyViewControllers/PaperViewController.m"
-            timestampString = "464860095.854342"
+            timestampString = "465098071.006642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "5">
          </BreakpointContent>
