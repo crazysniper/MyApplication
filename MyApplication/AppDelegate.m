@@ -18,12 +18,18 @@
 // 程序启动之后执行，只有在第一次程序启动后才执行，以后不再执行；
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
+//    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.backgroundColor = [UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1.0];
     
     SplashViewController *controller = [[SplashViewController alloc] init];
     controller.view.frame = self.window.frame;
-    self.window.rootViewController = controller;
     
+//    self.window.rootViewController = controller;
+    
+    // 该UINavigationController 以self.viewController为视图栈 最底层控件
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+    // 设置窗口以self.naviController为根视图控制器
+    self.window.rootViewController = nav;
     
     // 将该UIWindow对象设为主窗口并显示出来
     [self.window makeKeyAndVisible];

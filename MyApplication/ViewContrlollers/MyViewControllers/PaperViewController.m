@@ -21,7 +21,24 @@
     
     _dataList = [[NSMutableArray alloc] init];
     self.tableView = [[UITableView alloc] initWithFrame:[[UIScreen mainScreen] bounds] style:UITableViewStylePlain];
+    self.tableView.bounces = NO;
     
+
+    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen]bounds ].size.width, 20)];
+    headerView.backgroundColor = [UIColor blackColor];
+    
+    
+    
+    UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen]bounds ].size.width, 20)];
+    footerView.backgroundColor = [UIColor redColor];
+    
+    [self.tableView setTableHeaderView:headerView];
+    [self.tableView setTableFooterView:footerView];
+    
+
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone; // 去除间隔线
+//    [self.tableView setTableHeaderView:[[UIView alloc] initWithFrame:CGRectZero ]];
+//    [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero ]];
     
     NSMutableArray *datas = [NSMutableArray array];
     for (int index = 0; index < 20; index ++) {

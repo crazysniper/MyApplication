@@ -35,6 +35,10 @@
 #pragma mark - initView
 -(void) initView
 {
+//    self.view.backgroundColor = [UIColor redColor];
+//    [self.navigationController.navigationBar setTranslucent:NO]; //设置navigationbar的半透明
+    self.title = @"navigationcontroller";//设置navigationbar上显示的标题
+    
     float width = [UIScreen mainScreen].bounds.size.width-15*2;
     
     label = [[UILabel alloc] initWithFrame:CGRectMake(10, 20, width, 50)];
@@ -92,14 +96,16 @@
                 NSLog(@"跳转到引导页面");
                 GuideViewController *guide = [[GuideViewController alloc] initGuideInfo:@"11111"];
 //                [self.navigationController pushViewController:guide animated:YES];
-                [self presentViewController:guide animated:YES completion:nil];
+//                [self presentViewController:guide animated:YES completion:nil];
+                [self.navigationController pushViewController:guide animated:YES];
             }
             break;
         case 2:
             {
                 NSLog(@"跳转到控件学习页面");
                 MyViewController *tableView = [[MyViewController alloc] init];
-                [self presentViewController:tableView animated:YES completion:nil];
+//                [self presentViewController:tableView animated:YES completion:nil];
+                [self.navigationController pushViewController:tableView animated:YES];
             }
             break;
         default:

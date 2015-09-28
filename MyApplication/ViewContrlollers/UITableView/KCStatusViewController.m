@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title =@"仿微博页面";
+    
     //初始化数据
     [self initData];
     
@@ -36,10 +38,17 @@
     
     _tableView.bounces = NO; // 取消反弹
     
+//    UIView *headerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44)];
+//    headerView.backgroundColor = [UIColor redColor];
+    
+//    _tableView.tableHeaderView  = headerView;
+    
+    
     //    self.view = _tableView;
     [self.view addSubview:_tableView];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 
 #pragma mark 加载数据
 -(void)initData{
@@ -59,6 +68,8 @@
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     return 1;
 }
+
+
 
 #pragma mark 返回每组行数
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

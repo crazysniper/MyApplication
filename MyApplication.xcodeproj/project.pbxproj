@@ -24,6 +24,7 @@
 		3A1020841BB9196E001FA1C4 /* KCStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1020831BB9196E001FA1C4 /* KCStatusTableViewCell.m */; };
 		3A1020871BB919C1001FA1C4 /* KCStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1020861BB919C1001FA1C4 /* KCStatusViewController.m */; };
 		3A10208A1BB919F2001FA1C4 /* KCMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1020891BB919F2001FA1C4 /* KCMainTableViewController.m */; };
+		3A10208E1BB92D12001FA1C4 /* NavigationBarDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A10208D1BB92D12001FA1C4 /* NavigationBarDemo.m */; };
 		3AB5A2CA1BB399CA00C1234A /* MyUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2C81BB399CA00C1234A /* MyUITableView.m */; };
 		3AB5A2CE1BB3B9EB00C1234A /* MyUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2CD1BB3B9EB00C1234A /* MyUIScrollView.m */; };
 		3AB5A2D61BB50A5900C1234A /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5A2D51BB50A5900C1234A /* MyViewController.m */; };
@@ -82,6 +83,8 @@
 		3A1020861BB919C1001FA1C4 /* KCStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCStatusViewController.m; path = ViewContrlollers/UITableView/KCStatusViewController.m; sourceTree = "<group>"; };
 		3A1020881BB919F2001FA1C4 /* KCMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCMainTableViewController.h; path = ViewContrlollers/UITableView/KCMainTableViewController.h; sourceTree = "<group>"; };
 		3A1020891BB919F2001FA1C4 /* KCMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCMainTableViewController.m; path = ViewContrlollers/UITableView/KCMainTableViewController.m; sourceTree = "<group>"; };
+		3A10208C1BB92D12001FA1C4 /* NavigationBarDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationBarDemo.h; path = ViewContrlollers/MyViewControllers/NavigationBarDemo.h; sourceTree = "<group>"; };
+		3A10208D1BB92D12001FA1C4 /* NavigationBarDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationBarDemo.m; path = ViewContrlollers/MyViewControllers/NavigationBarDemo.m; sourceTree = "<group>"; };
 		3AB5A2C71BB399CA00C1234A /* MyUITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUITableView.h; path = ViewContrlollers/MyViewControllers/MyUITableView.h; sourceTree = "<group>"; };
 		3AB5A2C81BB399CA00C1234A /* MyUITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyUITableView.m; path = ViewContrlollers/MyViewControllers/MyUITableView.m; sourceTree = "<group>"; };
 		3AB5A2CC1BB3B9EB00C1234A /* MyUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyUIScrollView.h; path = ViewContrlollers/MyViewControllers/MyUIScrollView.h; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 				3A1020511BB9172C001FA1C4 /* MyWebViewViewController.m */,
 				3AB5A2D41BB50A5900C1234A /* MyViewController.h */,
 				3AB5A2D51BB50A5900C1234A /* MyViewController.m */,
+				3A10208C1BB92D12001FA1C4 /* NavigationBarDemo.h */,
+				3A10208D1BB92D12001FA1C4 /* NavigationBarDemo.m */,
 			);
 			name = MyViewsContrlloers;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 				3A1020811BB9194E001FA1C4 /* KCCell.m in Sources */,
 				3AB5A2CA1BB399CA00C1234A /* MyUITableView.m in Sources */,
 				3E9F5FBB1BB2C83800460AA5 /* HttpUtils.m in Sources */,
+				3A10208E1BB92D12001FA1C4 /* NavigationBarDemo.m in Sources */,
 				3EC493151BB2C52D00E176AF /* AppDelegate.m in Sources */,
 				3EC493121BB2C52D00E176AF /* main.m in Sources */,
 				3A1020781BB918B9001FA1C4 /* KCContact.m in Sources */,

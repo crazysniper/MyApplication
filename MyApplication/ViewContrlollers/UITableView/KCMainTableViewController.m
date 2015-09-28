@@ -23,6 +23,7 @@
 
 @implementation KCMainTableViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -90,7 +91,20 @@
     
 }
 
-
+/**
+ *  去掉UITableView HeaderView或FooterView随tableView 移动的黏性(sticky)
+ *
+ *  @param scrollView <#scrollView description#>
+ */
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat sectionHeaderHeight = 40;
+    if (scrollView.contentOffset.y<=sectionHeaderHeight&&scrollView.contentOffset.y>=0) {
+        scrollView.contentInset = UIEdgeInsetsMake(-scrollView.contentOffset.y, 0, 0, 0);
+    } else if (scrollView.contentOffset.y>=sectionHeaderHeight) {
+        scrollView.contentInset = UIEdgeInsetsMake(-sectionHeaderHeight, 0, 0, 0);
+    }
+}
 
 #pragma mark - Table view data source
 
